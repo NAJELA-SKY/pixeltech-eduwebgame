@@ -1,0 +1,2841 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - PixelTech Edu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigasi -->
+    <header class="pixel-header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-microchip"></i> PixelTech Edu</h1>
+                <p class="subtitle">Belajar Hardware & Software dengan Gaya 8-bit</p>
+            </div>
+            <nav class="pixel-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li><a href="hardware.html"><i class="fas fa-desktop"></i> Hardware</a></li>
+                    <li><a href="software.html"><i class="fas fa-code"></i> Software</a></li>
+                    <li><a href="flashcard.html"><i class="fas fa-layer-group"></i> Flashcard</a></li>
+                    <li><a href="quiz.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+                    <li><a href="game.html" class="active"><i class="fas fa-gamepad"></i> Game</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="container">
+        <section class="content-header pixel-border">
+            <h1 class="pixel-title">Game Edukasi</h1>
+            <p class="pixel-subtitle">Belajar Hardware & Software dengan Cara Menyenangkan</p>
+        </section>
+        
+        <section class="game-container">
+            <div class="content-intro">
+                <p>Halaman ini adalah template untuk game edukasi tentang hardware dan software. Di sini, Anda dapat menyisipkan game HTML5, JavaScript, atau jikarame untuk game eksternal. Template ini sudah dilengkapi dengan struktur yang siap digunakan.</p>
+            </div>
+            
+            <div class="game-placeholder pixel-border">
+                <i class="fas fa-gamepad"></i>
+                <h2>Area Game</h2>
+                <p>Game akan ditampilkan di area ini.</p>
+                <p>Untuk menambahkan game, ganti konten di dalam div dengan class "game-placeholder" dengan game Anda.</p>
+                
+                <div class="game-example">
+                    <h3>Contoh Game Sederhana yang Dapat Ditambahkan:</h3>
+                    <ul>
+                        <li>Game mencocokkan komponen hardware dengan fungsinya</li>
+                        <li>Game puzzle mengatur urutan booting komputer</li>
+                        <li>Game tebak gambar komponen komputer</li>
+                        <li>Game memori (memory match) dengan istilah hardware/software</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="game-instructions pixel-border">
+                <h3><i class="fas fa-info-circle"></i> Cara Menambahkan Game ke Halaman Ini:</h3>
+                <ol>
+                    <li>Buat game menggunakan HTML5, JavaScript, atau framework game seperti Phaser</li>
+                    <li>Simpan file game di folder yang sama dengan website ini</li>
+                    <li>Ganti konten di dalam div dengan class "game-placeholder" dengan kode game Anda</li>
+                    <li>Atau gunakan iframe untuk menampilkan game dari sumber eksternal</li>
+                </ol>
+                
+                <div class="code-example">
+                    <h4>Contoh kode iframe untuk game eksternal:</h4>
+                    <pre><code>&lt;iframe src="game-anda.html" width="800" height="600" frameborder="0"&gt;&lt;/iframe&gt;</code></pre>
+                </div>
+            </div>
+            
+            <div class="quick-links pixel-border">
+                <h2 class="section-title">Game Edukasi Lainnya</h2>
+                <div class="quick-links-grid">
+                    <a href="flashcard.html" class="quick-link-item">
+                        <i class="fas fa-layer-group"></i>
+                        <span>Flashcard Interaktif</span>
+                    </a>
+                    <a href="quiz.html" class="quick-link-item">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Kuis Hardware & Software</span>
+                    </a>
+                    <a href="hardware.html" class="quick-link-item">
+                        <i class="fas fa-microchip"></i>
+                        <span>Materi Hardware</span>
+                    </a>
+                    <a href="software.html" class="quick-link-item">
+                        <i class="fas fa-code"></i>
+                        <span>Materi Software</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pixel-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-microchip"></i> PixelTech Edu</h3>
+                    <p>Platform edukasi teknologi dengan gaya retro 8-bit.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="hardware.html">Hardware</a></li>
+                        <li><a href="software.html">Software</a></li>
+                        <li><a href="flashcard.html">Flashcard</a></li>
+                        <li><a href="quiz.html">Kuis</a></li>
+                        <li><a href="game.html">Game</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Informasi</h4>
+                    <p>Website ini dibuat untuk tujuan edukasi dengan tema pixel art retro.</p>
+                    <p>Semua konten dapat digunakan dan dikembangkan lebih lanjut.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 PixelTech Edu. Dibuat dengan <i class="fas fa-heart"></i> untuk pembelajaran teknologi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- Script untuk game placeholder sederhana -->
+    <script>
+        // Game tebak komponen sederhana (placeholder)
+        document.addEventListener('DOMContentLoaded', function() {
+            const gamePlaceholder = document.querySelector('.game-placeholder');
+            
+            // Tambahkan game sederhana jika diinginkan
+            const addSimpleGame = false; // Ubah ke true untuk menambahkan game sederhana
+            
+            if (addSimpleGame && gamePlaceholder) {
+                // Hapus konten placeholder
+                gamePlaceholder.innerHTML = '';
+                
+                // Tambahkan game sederhana
+                const gameHTML = `
+                    <div class="simple-game">
+                        <h2><i class="fas fa-gamepad"></i> Game Tebak Komponen</h2>
+                        <p>Tebak nama komponen hardware berdasarkan fungsinya!</p>
+                        
+                        <div class="game-question" id="gameQuestion">
+                            <p>Komponen ini adalah otak komputer yang menjalankan instruksi program.</p>
+                        </div>
+                        
+                        <div class="game-options" id="gameOptions">
+                            <button class="pixel-button game-option" data-answer="cpu">CPU</button>
+                            <button class="pixel-button game-option" data-answer="ram">RAM</button>
+                            <button class="pixel-button game-option" data-answer="hdd">Hard Disk</button>
+                            <button class="pixel-button game-option" data-answer="gpu">GPU</button>
+                        </div>
+                        
+                        <div class="game-feedback" id="gameFeedback"></div>
+                        
+                        <div class="game-score">
+                            <p>Skor: <span id="gameScore">0</span></p>
+                            <button class="pixel-button" id="nextQuestion">Pertanyaan Berikutnya</button>
+                        </div>
+                    </div>
+                `;
+                
+                gamePlaceholder.innerHTML = gameHTML;
+                
+                // Inisialisasi game sederhana
+                initSimpleGame();
+            }
+        });
+        
+        // Fungsi untuk game sederhana
+        function initSimpleGame() {
+            // Data pertanyaan game
+            const gameQuestions = [
+                {
+                    question: "Komponen ini adalah otak komputer yang menjalankan instruksi program.",
+                    options: ["CPU", "RAM", "Hard Disk", "GPU"],
+                    answer: "CPU"
+                },
+                {
+                    question: "Komponen ini adalah memori jangka pendek yang menyimpan data sementara.",
+                    options: ["CPU", "RAM", "Motherboard", "Power Supply"],
+                    answer: "RAM"
+                },
+                {
+                    question: "Papan sirkuit utama yang menghubungkan semua komponen komputer.",
+                    options: ["CPU", "RAM", "Motherboard", "Hard Disk"],
+                    answer: "Motherboard"
+                },
+                {
+                    question: "Perangkat ini digunakan untuk memasukkan teks ke komputer.",
+                    options: ["Monitor", "Printer", "Keyboard", "Speaker"],
+                    answer: "Keyboard"
+                }
+            ];
+            
+            let currentGameQuestion = 0;
+            let gameScore = 0;
+            
+            const gameQuestionElement = document.getElementById('gameQuestion');
+            const gameOptionsElement = document.getElementById('gameOptions');
+            const gameFeedbackElement = document.getElementById('gameFeedback');
+            const gameScoreElement = document.getElementById('gameScore');
+            const nextButton = document.getElementById('nextQuestion');
+            
+            // Tampilkan pertanyaan pertama
+            displayGameQuestion();
+            
+            // Event listener untuk opsi game
+            document.querySelectorAll('.game-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    const selectedAnswer = this.dataset.answer;
+                    const correctAnswer = gameQuestions[currentGameQuestion].answer.toLowerCase();
+                    
+                    // Nonaktifkan semua opsi setelah memilih
+                    document.querySelectorAll('.game-option').forEach(btn => {
+                        btn.disabled = true;
+                    });
+                    
+                    // Tampilkan feedback
+                    if (selectedAnswer === correctAnswer) {
+                        gameFeedbackElement.innerHTML = `<p style="color: var(--neon-green)">Benar! +10 poin</p>`;
+                        gameScore += 10;
+                        gameScoreElement.textContent = gameScore;
+                        this.style.backgroundColor = 'var(--neon-green)';
+                    } else {
+                        gameFeedbackElement.innerHTML = `<p style="color: var(--neon-pink)">Salah! Jawaban benar: ${gameQuestions[currentGameQuestion].answer}</p>`;
+                        this.style.backgroundColor = 'var(--neon-pink)';
+                    }
+                    
+                    // Highlight jawaban yang benar
+                    document.querySelectorAll('.game-option').forEach(btn => {
+                        if (btn.dataset.answer === correctAnswer) {
+                            btn.style.backgroundColor = 'var(--neon-green)';
+                        }
+                    });
+                });
+            });
+            
+            // Event listener untuk tombol next
+            if (nextButton) {
+                nextButton.addEventListener('click', function() {
+                    currentGameQuestion++;
+                    
+                    if (currentGameQuestion >= gameQuestions.length) {
+                        currentGameQuestion = 0;
+                        gameFeedbackElement.innerHTML = `<p style="color: var(--neon-blue)">Game selesai! Skor akhir: ${gameScore}</p>`;
+                    }
+                    
+                    displayGameQuestion();
+                });
+            }
+            
+            // Fungsi untuk menampilkan pertanyaan game
+            function displayGameQuestion() {
+                if (currentGameQuestion < gameQuestions.length) {
+                    const question = gameQuestions[currentGameQuestion];
+                    
+                    // Update pertanyaan
+                    gameQuestionElement.innerHTML = `<p>${question.question}</p>`;
+                    
+                    // Update opsi
+                    gameOptionsElement.innerHTML = '';
+                    question.options.forEach(option => {
+                        const button = document.createElement('button');
+                        button.className = 'pixel-button game-option';
+                        button.dataset.answer = option.toLowerCase();
+                        button.textContent = option;
+                        button.disabled = false;
+                        button.style.backgroundColor = '';
+                        
+                        button.addEventListener('click', function() {
+                            const selectedAnswer = this.dataset.answer;
+                            const correctAnswer = question.answer.toLowerCase();
+                            
+                            // Nonaktifkan semua opsi setelah memilih
+                            document.querySelectorAll('.game-option').forEach(btn => {
+                                btn.disabled = true;
+                            });
+                            
+                            // Tampilkan feedback
+                            if (selectedAnswer === correctAnswer) {
+                                gameFeedbackElement.innerHTML = `<p style="color: var(--neon-green)">Benar! +10 poin</p>`;
+                                gameScore += 10;
+                                gameScoreElement.textContent = gameScore;
+                                this.style.backgroundColor = 'var(--neon-green)';
+                            } else {
+                                gameFeedbackElement.innerHTML = `<p style="color: var(--neon-pink)">Salah! Jawaban benar: ${question.answer}</p>`;
+                                this.style.backgroundColor = 'var(--neon-pink)';
+                            }
+                            
+                            // Highlight jawaban yang benar
+                            document.querySelectorAll('.game-option').forEach(btn => {
+                                if (btn.dataset.answer === correctAnswer) {
+                                    btn.style.backgroundColor = 'var(--neon-green)';
+                                }
+                            });
+                        });
+                        
+                        gameOptionsElement.appendChild(button);
+                    });
+                    
+                    // Reset feedback
+                    gameFeedbackElement.innerHTML = '';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petualangan di Warnet Pixel - Edukasi Hardware & Software</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Press Start 2P', cursive, sans-serif;
+            background-color: #000;
+            color: #fff;
+            overflow: hidden;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+
+        /* Home Screen */
+        #home-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a2e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            transition: opacity 0.8s ease;
+        }
+
+        .pixel-art-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(to bottom, rgba(26, 26, 46, 0.9), rgba(26, 26, 46, 0.9)),
+                url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iIzAwMzM2NiIvPjxyZWN0IHg9IjIwIiB5PSIwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9IiMwMDY2OTkiLz48cmVjdCB4PSIwIiB5PSIyMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjMDA2Njk5Ii8+PHJlY3QgeD0iMjAiIHk9IjIwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9IiMwMDMzNjYiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjcGF0dGVybikiLz48L3N2Zz4=');
+            background-size: cover;
+            z-index: -1;
+        }
+
+        .title-container {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 8px solid #ffcc00;
+            border-image: repeating-linear-gradient(45deg, #ffcc00, #ff9900 10px, #ffcc00 20px) 8;
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+            max-width: 800px;
+        }
+
+        .game-title {
+            font-size: 3.5rem;
+            color: #ffcc00;
+            text-shadow: 4px 4px 0 #ff6600, 8px 8px 0 rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .game-subtitle {
+            font-size: 1.2rem;
+            color: #66ccff;
+            text-shadow: 2px 2px 0 #006699;
+            margin-bottom: 30px;
+        }
+
+        .play-button {
+            font-size: 2.5rem;
+            padding: 20px 50px;
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+            text-shadow: 3px 3px 0 #cc0044;
+            box-shadow: 0 10px 0 #cc0044, 0 15px 20px rgba(0, 0, 0, 0.5);
+            transition: all 0.1s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .play-button:hover {
+            background-color: #ff5588;
+            transform: translateY(5px);
+            box-shadow: 0 5px 0 #cc0044, 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .play-button:active {
+            transform: translateY(10px);
+            box-shadow: 0 0 0 #cc0044, 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a2e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 90;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s ease;
+        }
+
+        .loading-text {
+            font-size: 2rem;
+            color: #66ccff;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 0 #006699;
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .progress-bar-container {
+            width: 80%;
+            max-width: 600px;
+            height: 40px;
+            background-color: #003366;
+            border: 5px solid #006699;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background-color: #00cc66;
+            transition: width 0.3s ease;
+            position: relative;
+        }
+
+        .progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /* Game Screen */
+        #game-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: none;
+            flex-direction: column;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 0.8s ease;
+        }
+
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: rgba(0, 0, 0, 0.9);
+            border-bottom: 4px solid #ffcc00;
+            z-index: 5;
+            height: 70px;
+        }
+
+        .score-display {
+            font-size: 1.2rem;
+            color: #ffcc00;
+            display: flex;
+            align-items: center;
+        }
+
+        .score-value {
+            margin-left: 10px;
+            color: #66ff99;
+            font-size: 1.5rem;
+        }
+
+        .scene-title {
+            font-size: 1.5rem;
+            color: #66ccff;
+            text-align: center;
+        }
+
+        .time-display {
+            font-size: 1rem;
+            color: #ff9966;
+        }
+
+        /* Chat Container */
+        .chat-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #0a0a1a;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chat-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0a0a1a;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(0, 102, 153, 0.2) 0%, transparent 20%),
+                radial-gradient(circle at 80% 70%, rgba(255, 204, 0, 0.1) 0%, transparent 20%),
+                url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMTAwMCA2MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiMwYTBhMWEiLz48cmVjdCB4PSIxMDAiIHk9IjEwMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxMjAiIGZpbGw9IiMzMzMiIHN0cm9rZT0iIzk5NjYzMyIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHJlY3QgeD0iMTIwIiB5PSItNDAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTAwIiBmaWxsPSIjNjY2Ii8+PHJlY3QgeD0iMTMwIiB5PSItMzAiIHdpZHRoPSIxNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAwMzMiLz48cmVjdCB4PSI0MDAiIHk9IjEwMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxMjAiIGZpbGw9IiMzMzMiIHN0cm9rZT0iIzk5NjYzMyIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHJlY3QgeD0iNDIwIiB5PSItNDAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTAwIiBmaWxsPSIjNjY2Ii8+PHJlY3QgeD0iNDMwIiB5PSItMzAiIHdpZHRoPSIxNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAwMzMiLz48cmVjdCB4PSI3MDAiIHk9IjEwMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxMjAiIGZpbGw9IiMzMzMiIHN0cm9rZT0iIzk5NjYzMyIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHJlY3QgeD0iNzIwIiB5PSItNDAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTAwIiBmaWxsPSIjNjY2Ii8+PHJlY3QgeD0iNzMwIiB5PSItMzAiIHdpZHRoPSIxNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAwMzMiLz48L3N2Zz4=');
+            background-size: cover;
+            opacity: 0.3;
+            z-index: 1;
+        }
+
+        /* Chat Messages Area */
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 2;
+            position: relative;
+        }
+
+        /* Message Bubbles */
+        .message {
+            display: flex;
+            max-width: 80%;
+            animation: messageAppear 0.3s ease-out;
+        }
+
+        @keyframes messageAppear {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.other {
+            align-self: flex-start;
+        }
+
+        .message.self {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin: 0 10px;
+            flex-shrink: 0;
+            position: relative;
+            border: 3px solid;
+            overflow: hidden;
+            image-rendering: pixelated;
+        }
+
+        .avatar.student {
+            border-color: #4a86e8;
+            background-color: #2d5aa0;
+        }
+
+        .avatar.owner {
+            border-color: #00cc66;
+            background-color: #009944;
+        }
+
+        .avatar-img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        /* Avatar Pixel Art */
+        .avatar-pixel {
+            position: absolute;
+            background-color: currentColor;
+        }
+
+        /* Student Avatar */
+        .student-head {
+            top: 10px;
+            left: 15px;
+            width: 30px;
+            height: 30px;
+            background-color: #ffdbac;
+            border-radius: 50%;
+        }
+
+        .student-hair {
+            top: 5px;
+            left: 12px;
+            width: 36px;
+            height: 20px;
+            background-color: #2d2d2d;
+            border-radius: 18px 18px 10px 10px;
+        }
+
+        .student-eye {
+            top: 20px;
+            width: 5px;
+            height: 7px;
+            background-color: #000;
+            border-radius: 50%;
+        }
+
+        .student-eye.left {
+            left: 22px;
+        }
+
+        .student-eye.right {
+            right: 22px;
+        }
+
+        .student-body {
+            top: 45px;
+            left: 10px;
+            width: 40px;
+            height: 35px;
+            background-color: #4a86e8;
+            border-radius: 10px;
+        }
+
+        /* Mas Rian Avatar */
+        .owner-head {
+            top: 10px;
+            left: 15px;
+            width: 30px;
+            height: 30px;
+            background-color: #ffdbac;
+            border-radius: 50%;
+        }
+
+        .owner-hair {
+            top: 0;
+            left: 10px;
+            width: 40px;
+            height: 15px;
+            background-color: #333;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .owner-eye {
+            top: 20px;
+            width: 6px;
+            height: 4px;
+            background-color: #000;
+            border-radius: 50%;
+        }
+
+        .owner-eye.left {
+            left: 20px;
+        }
+
+        .owner-eye.right {
+            right: 20px;
+        }
+
+        .owner-smile {
+            top: 28px;
+            left: 20px;
+            width: 20px;
+            height: 5px;
+            background-color: #000;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .owner-body {
+            top: 45px;
+            left: 10px;
+            width: 40px;
+            height: 35px;
+            background-color: #00cc66;
+            border-radius: 10px;
+        }
+
+        .message-content {
+            max-width: calc(100% - 80px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .message.self .message-info {
+            flex-direction: row-reverse;
+        }
+
+        .sender-name {
+            font-size: 0.9rem;
+            color: #ffcc00;
+            margin: 0 10px;
+        }
+
+        .message-time {
+            font-size: 0.7rem;
+            color: #999;
+        }
+
+        .message-bubble {
+            padding: 15px 20px;
+            border-radius: 20px;
+            position: relative;
+            font-size: 1rem;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+
+        .message.other .message-bubble {
+            background-color: rgba(0, 51, 102, 0.9);
+            border: 2px solid #0099cc;
+            color: #fff;
+            border-top-left-radius: 5px;
+        }
+
+        .message.self .message-bubble {
+            background-color: rgba(102, 0, 51, 0.9);
+            border: 2px solid #ff3366;
+            color: #fff;
+            border-top-right-radius: 5px;
+        }
+
+        /* Typing Indicator */
+        .typing-indicator {
+            display: none;
+            align-self: flex-start;
+            margin: 10px 0 20px 90px;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 5px;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #66ccff;
+            border-radius: 50%;
+            animation: typing 1.4s infinite ease-in-out;
+        }
+
+        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes typing {
+            0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+
+        /* Chat Input Area */
+        .chat-input-area {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.9);
+            border-top: 4px solid #ffcc00;
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .choices-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .choice-button {
+            padding: 12px 20px;
+            background-color: #006699;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+            border: 2px solid #0099cc;
+        }
+
+        .choice-button:hover {
+            background-color: #0099cc;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .choice-button.correct {
+            background-color: #00aa44;
+            border-color: #00cc66;
+        }
+
+        .choice-button.incorrect {
+            background-color: #cc3300;
+            border-color: #ff6600;
+        }
+
+        .next-button {
+            padding: 15px 30px;
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1rem;
+            align-self: center;
+            border: 3px solid #ff6699;
+            transition: all 0.2s;
+        }
+
+        .next-button:hover {
+            background-color: #ff5588;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Notification Badge */
+        .notification {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background-color: #ff3366;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            display: none;
+            z-index: 100;
+            animation: notificationSlide 0.5s ease-out;
+            border: 2px solid #ff6699;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes notificationSlide {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        /* Quiz & Flashcard Styles */
+        .quiz-container, .flashcard-container, .remedial-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 800px;
+            background-color: rgba(0, 20, 40, 0.95);
+            border: 8px solid #ffcc00;
+            padding: 30px;
+            z-index: 40;
+            display: none;
+            border-radius: 15px;
+        }
+
+        .quiz-title, .flashcard-title, .remedial-title {
+            font-size: 1.8rem;
+            color: #66ccff;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 2px 2px 0 #006699;
+        }
+
+        .quiz-question, .remedial-question {
+            font-size: 1.3rem;
+            color: #ffffff;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .quiz-choices {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .quiz-choice {
+            padding: 15px;
+            background-color: #003366;
+            border: 3px solid #006699;
+            color: white;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1rem;
+            text-align: left;
+            transition: all 0.2s;
+            border-radius: 10px;
+        }
+
+        .quiz-choice:hover {
+            background-color: #004488;
+            transform: translateX(10px);
+        }
+
+        .quiz-feedback {
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+            display: none;
+            border-radius: 10px;
+        }
+
+        .quiz-feedback.correct {
+            background-color: rgba(0, 170, 68, 0.3);
+            border: 3px solid #00cc66;
+            color: #66ff99;
+        }
+
+        .quiz-feedback.incorrect {
+            background-color: rgba(204, 51, 0, 0.3);
+            border: 3px solid #ff6600;
+            color: #ff9966;
+        }
+
+        .flashcard-content, .remedial-content {
+            background-color: #001a33;
+            border: 5px solid #0099cc;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .flashcard-term {
+            font-size: 1.8rem;
+            color: #ffcc00;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .flashcard-definition {
+            font-size: 1.3rem;
+            color: #ffffff;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .remedial-title {
+            color: #ff9966;
+            text-shadow: 2px 2px 0 #cc6600;
+        }
+
+        .remedial-content {
+            border-color: #ff9900;
+        }
+
+        /* Ending Screen */
+        #ending-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a2e;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 80;
+            padding: 20px;
+        }
+
+        .ending-container {
+            background-color: rgba(0, 20, 40, 0.95);
+            border: 8px solid #ffcc00;
+            padding: 40px;
+            max-width: 800px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        .ending-title {
+            font-size: 2.5rem;
+            color: #ffcc00;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 0 #ff6600;
+        }
+
+        .ending-message {
+            font-size: 1.3rem;
+            color: #ffffff;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .ending-stats {
+            font-size: 1.2rem;
+            color: #66ccff;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .badge-container {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .badge {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: badge-pop 1s ease-out;
+            box-shadow: 0 0 30px rgba(255, 204, 0, 0.7);
+        }
+
+        @keyframes badge-pop {
+            0% { transform: scale(0); }
+            70% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        .badge-success {
+            background: radial-gradient(circle at 30% 30%, #00cc66, #009944);
+            border: 10px solid #ffcc00;
+        }
+
+        .badge-fail {
+            background: radial-gradient(circle at 30% 30%, #cc3300, #992200);
+            border: 10px solid #996633;
+        }
+
+        .badge-icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+
+        .badge-text {
+            font-size: 1.5rem;
+            color: white;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        .restart-button {
+            padding: 15px 40px;
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            border: 4px solid #ff6699;
+            transition: all 0.2s;
+        }
+
+        .restart-button:hover {
+            background-color: #ff5588;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .game-title {
+                font-size: 2.5rem;
+            }
+            
+            .play-button {
+                font-size: 1.8rem;
+                padding: 15px 30px;
+            }
+            
+            .avatar {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .message {
+                max-width: 90%;
+            }
+            
+            .choice-button {
+                font-size: 0.8rem;
+                min-width: 150px;
+            }
+            
+            .message-bubble {
+                font-size: 0.9rem;
+                padding: 12px 16px;
+            }
+            
+            .badge {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .badge-icon {
+                font-size: 3rem;
+            }
+            
+            .typing-indicator {
+                margin-left: 70px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .game-title {
+                font-size: 1.8rem;
+            }
+            
+            .play-button {
+                font-size: 1.5rem;
+                padding: 12px 25px;
+            }
+            
+            .avatar {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .message {
+                max-width: 95%;
+            }
+            
+            .student-head, .owner-head {
+                width: 20px;
+                height: 20px;
+                top: 8px;
+                left: 10px;
+            }
+            
+            .student-body, .owner-body {
+                width: 25px;
+                height: 20px;
+                top: 32px;
+                left: 7px;
+            }
+            
+            .choice-button {
+                font-size: 0.7rem;
+                min-width: 100%;
+            }
+            
+            .badge {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .badge-icon {
+                font-size: 2.5rem;
+            }
+            
+            .badge-text {
+                font-size: 1.2rem;
+            }
+            
+            .typing-indicator {
+                margin-left: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Screen -->
+    <div id="home-screen">
+        <div class="pixel-art-bg"></div>
+        <div class="title-container">
+            <h1 class="game-title">PETUALANGAN DI WARNET PIXEL</h1>
+            <p class="game-subtitle">Belajar Hardware & Software Komputer dengan Cara Menyenangkan!</p>
+        </div>
+        <button id="play-button" class="play-button">PLAY GAME</button>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-text">MEMUAT PETUALANGAN...</div>
+        <div class="progress-bar-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen">
+        <div class="game-header">
+            <div class="score-display">SCORE: <span id="score-value" class="score-value">0</span></div>
+            <div class="scene-title" id="scene-title">WARNET PIXEL - PENGENALAN KOMPUTER</div>
+            <div class="time-display" id="time-display">10:00 AM</div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-background"></div>
+            
+            <!-- Chat Messages Area -->
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be inserted here by JavaScript -->
+            </div>
+            
+            <!-- Typing Indicator -->
+            <div class="typing-indicator" id="typing-indicator">
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+            
+            <!-- Chat Input Area -->
+            <div class="chat-input-area">
+                <div class="choices-container" id="choices-container">
+                    <!-- Choices will be inserted here by JavaScript -->
+                </div>
+                <button id="next-button" class="next-button">LANJUT</button>
+            </div>
+        </div>
+        
+        <!-- Quiz Container -->
+        <div class="quiz-container" id="quiz-container">
+            <h2 class="quiz-title">KUIS PEMAHAMAN</h2>
+            <div class="quiz-question" id="quiz-question"></div>
+            <div class="quiz-choices" id="quiz-choices"></div>
+            <div class="quiz-feedback" id="quiz-feedback"></div>
+            <button id="quiz-next-button" class="next-button">LANJUT</button>
+        </div>
+        
+        <!-- Flashcard Container -->
+        <div class="flashcard-container" id="flashcard-container">
+            <h2 class="flashcard-title">FLASHCARD MATERI</h2>
+            <div class="flashcard-content">
+                <div class="flashcard-term" id="flashcard-term">KOMPUTER</div>
+                <div class="flashcard-definition" id="flashcard-definition">Alat elektronik yang bisa menerima data, mengolah data, dan menghasilkan informasi.</div>
+            </div>
+            <button id="flashcard-next-button" class="next-button">LANJUT</button>
+        </div>
+        
+        <!-- Remedial Container -->
+        <div class="remedial-container" id="remedial-container">
+            <h2 class="remedial-title">AYO BELAJAR LAGI!</h2>
+            <div class="remedial-content" id="remedial-content"></div>
+            <div class="remedial-question" id="remedial-question"></div>
+            <div class="choices-container" id="remedial-choices"></div>
+            <button id="remedial-next-button" class="next-button">LANJUT</button>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        Pesan baru dari Mas Rian!
+    </div>
+
+    <!-- Ending Screen -->
+    <div id="ending-screen">
+        <div class="ending-container">
+            <h2 class="ending-title" id="ending-title">SELESAI!</h2>
+            <div class="ending-message" id="ending-message"></div>
+            <div class="ending-stats" id="ending-stats"></div>
+            
+            <!-- Badge Container -->
+            <div class="badge-container" id="badge-container">
+                <div class="badge" id="badge">
+                    <div class="badge-icon" id="badge-icon">🏆</div>
+                    <div class="badge-text" id="badge-text">JUARA</div>
+                </div>
+            </div>
+            
+            <button id="restart-button" class="restart-button">MAIN LAGI</button>
+        </div>
+    </div>
+
+    <script>
+        // Game State
+        const gameState = {
+            currentScene: "scene0",
+            score: 0,
+            correctAnswers: 0,
+            totalQuestions: 0,
+            wrongAnswers: 0,
+            maxWrongAnswers: 5,
+            playerName: "Siswa SMP",
+            inQuiz: false,
+            inFlashcard: false,
+            inRemedial: false,
+            remedialTopic: "",
+            hasCompletedRemedial: {},
+            chatHistory: [],
+            currentTime: "10:00 AM"
+        };
+
+        // DECISION TREE KOMPLEKS DENGAN PERTANYAAN LEBIH BANYAK
+        const decisionTree = {
+            // SCENE 0: PERKENALAN
+            "scene0": {
+                id: "scene0",
+                title: "Perkenalan di Warnet Pixel",
+                speaker: "Mas Rian",
+                message: "Halo! Selamat datang di Warnet Pixel! Nama saya Mas Rian, pemilik warnet ini. Saya dengar kamu mau belajar tentang komputer? Wah, bagus banget!",
+                choices: [
+                    { 
+                        text: "Iya Mas, saya ingin belajar komputer", 
+                        nextScene: "scene1", 
+                        correct: true,
+                        feedback: "Mantap! Saya senang ada yang mau belajar. Komputer itu alat yang sangat menarik!",
+                        points: 10
+                    },
+                    { 
+                        text: "Cuma mau main game aja sih", 
+                        nextScene: "scene0_wrong1", 
+                        correct: false,
+                        feedback: "Wah, jangan cuma main game dong! Komputer bisa buat banyak hal yang bermanfaat!",
+                        points: 0
+                    },
+                    { 
+                        text: "Saya bingung mau ngapain", 
+                        nextScene: "scene0_wrong2", 
+                        correct: false,
+                        feedback: "Gak usah bingung! Yuk kita belajar bareng, pasti seru!",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene0_wrong1": {
+                id: "scene0_wrong1",
+                title: "Mengenal Fungsi Komputer",
+                speaker: "Mas Rian",
+                message: "Komputer bukan cuma untuk main game lho! Banyak banget fungsinya. Mau tau apa aja?",
+                choices: [],
+                nextScene: "remedial_computer_functions"
+            },
+            
+            "scene0_wrong2": {
+                id: "scene0_wrong2",
+                title: "Motivasi Belajar",
+                speaker: "Mas Rian",
+                message: "Jangan bingung! Di era digital ini, belajar komputer itu penting banget. Yuk mulai dari dasar!",
+                choices: [],
+                nextScene: "remedial_importance"
+            },
+            
+            // SCENE 1: PENGENALAN KOMPUTER
+            "scene1": {
+                id: "scene1",
+                title: "Apa Itu Komputer?",
+                speaker: "Mas Rian",
+                message: "Oke, pertama-tama kita harus tau dulu apa itu komputer. Menurut kamu, apa pengertian komputer yang tepat?",
+                choices: [
+                    { 
+                        text: "Mesin elektronik untuk bermain game dan media sosial", 
+                        nextScene: "scene1_wrong1", 
+                        correct: false,
+                        feedback: "Hmm, itu cuma sebagian kecil fungsinya. Komputer lebih dari itu!",
+                        points: 0
+                    },
+                    { 
+                        text: "Alat elektronik yang bisa menerima input, memproses data, dan menghasilkan output", 
+                        nextScene: "scene2", 
+                        correct: true,
+                        feedback: "TEPAT BANGET! Itu definisi komputer yang benar. Kamu cepat paham!",
+                        points: 15
+                    },
+                    { 
+                        text: "Perangkat untuk mengetik dan printing dokumen", 
+                        nextScene: "scene1_wrong2", 
+                        correct: false,
+                        feedback: "Itu salah satu aplikasinya, tapi bukan definisi utamanya.",
+                        points: 0
+                    },
+                    { 
+                        text: "Sistem yang terdiri dari kabel dan listrik", 
+                        nextScene: "scene1_wrong3", 
+                        correct: false,
+                        feedback: "Bukan cuma kabel dan listrik, komputer lebih kompleks dari itu.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene1_wrong1": {
+                id: "scene1_wrong1",
+                title: "Memperbaiki Pemahaman",
+                speaker: "Mas Rian",
+                message: "Game dan media sosial cuma sebagian kecil. Komputer punya fungsi yang lebih luas!",
+                choices: [],
+                nextScene: "remedial_computer_definition"
+            },
+            
+            "scene1_wrong2": {
+                id: "scene1_wrong2",
+                title: "Memperbaiki Pemahaman",
+                speaker: "Mas Rian",
+                message: "Mengetik dan printing memang bisa, tapi itu aplikasi, bukan definisi komputer.",
+                choices: [],
+                nextScene: "remedial_computer_definition"
+            },
+            
+            "scene1_wrong3": {
+                id: "scene1_wrong3",
+                title: "Memperbaiki Pemahaman",
+                speaker: "Mas Rian",
+                message: "Komputer bukan sekadar kabel dan listrik. Ada banyak komponen penting di dalamnya!",
+                choices: [],
+                nextScene: "remedial_computer_definition"
+            },
+            
+            // SCENE 2: KOMPONEN UTAMA KOMPUTER
+            "scene2": {
+                id: "scene2",
+                title: "Komponen Utama Komputer",
+                speaker: "Mas Rian",
+                message: "Bagus! Sekarang, komputer terdiri dari dua komponen utama: Hardware dan Software. Hardware adalah bagian fisik. Coba sebutkan 3 contoh hardware!",
+                choices: [
+                    { 
+                        text: "Windows, Mouse, Keyboard", 
+                        nextScene: "scene2_wrong1", 
+                        correct: false,
+                        feedback: "Hati-hati! Windows itu software, bukan hardware.",
+                        points: 0
+                    },
+                    { 
+                        text: "Monitor, CPU, Microsoft Word", 
+                        nextScene: "scene2_wrong2", 
+                        correct: false,
+                        feedback: "Microsoft Word itu software aplikasi, bukan hardware.",
+                        points: 0
+                    },
+                    { 
+                        text: "Monitor, Keyboard, Motherboard", 
+                        nextScene: "scene3", 
+                        correct: true,
+                        feedback: "BENAR SEMUA! Monitor, Keyboard, dan Motherboard adalah hardware.",
+                        points: 20
+                    },
+                    { 
+                        text: "Internet, Printer, Scanner", 
+                        nextScene: "scene2_wrong3", 
+                        correct: false,
+                        feedback: "Internet bukan hardware, itu jaringan. Printer dan Scanner benar tapi internet salah.",
+                        points: 5
+                    }
+                ]
+            },
+            
+            "scene2_wrong1": {
+                id: "scene2_wrong1",
+                title: "Perbedaan Hardware dan Software",
+                speaker: "Mas Rian",
+                message: "Kamu masih bingung ya bedain hardware dan software? Yuk kita pelajari lagi!",
+                choices: [],
+                nextScene: "remedial_hardware_software"
+            },
+            
+            "scene2_wrong2": {
+                id: "scene2_wrong2",
+                title: "Perbedaan Hardware dan Software",
+                speaker: "Mas Rian",
+                message: "Microsoft Word termasuk software aplikasi, bukan hardware. Ayo kita perbaiki pemahamanmu!",
+                choices: [],
+                nextScene: "remedial_hardware_software"
+            },
+            
+            "scene2_wrong3": {
+                id: "scene2_wrong3",
+                title: "Perbedaan Hardware dan Software",
+                speaker: "Mas Rian",
+                message: "Internet itu jaringan, bukan hardware fisik. Printer dan Scanner benar, tapi ada yang salah nih.",
+                choices: [],
+                nextScene: "remedial_hardware_software"
+            },
+            
+            // SCENE 3: SOFTWARE DAN JENISNYA
+            "scene3": {
+                id: "scene3",
+                title: "Macam-macam Software",
+                speaker: "Mas Rian",
+                message: "Luar biasa! Sekarang tentang software. Software ada 3 jenis utama: Sistem Operasi, Aplikasi, dan Utility. Windows termasuk jenis apa?",
+                choices: [
+                    { 
+                        text: "Software Aplikasi", 
+                        nextScene: "scene3_wrong1", 
+                        correct: false,
+                        feedback: "Windows bukan aplikasi, itu lebih kompleks dari aplikasi biasa.",
+                        points: 0
+                    },
+                    { 
+                        text: "Software Sistem Operasi", 
+                        nextScene: "scene4", 
+                        correct: true,
+                        feedback: "TEPAT! Windows adalah Sistem Operasi yang mengelola seluruh kerja komputer.",
+                        points: 15
+                    },
+                    { 
+                        text: "Software Utility", 
+                        nextScene: "scene3_wrong2", 
+                        correct: false,
+                        feedback: "Utility software lebih ke tool bantu seperti antivirus, bukan sistem operasi.",
+                        points: 0
+                    },
+                    { 
+                        text: "Bukan software, tapi hardware", 
+                        nextScene: "scene3_wrong3", 
+                        correct: false,
+                        feedback: "Wah, Windows jelas-jelas software! Hardware itu benda fisik yang bisa disentuh.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene3_wrong1": {
+                id: "scene3_wrong1",
+                title: "Jenis-jenis Software",
+                speaker: "Mas Rian",
+                message: "Windows bukan aplikasi biasa. Aplikasi seperti Microsoft Word berjalan di atas sistem operasi.",
+                choices: [],
+                nextScene: "remedial_software_types"
+            },
+            
+            "scene3_wrong2": {
+                id: "scene3_wrong2",
+                title: "Jenis-jenis Software",
+                speaker: "Mas Rian",
+                message: "Utility software itu seperti antivirus atau disk cleaner. Windows lebih dari itu.",
+                choices: [],
+                nextScene: "remedial_software_types"
+            },
+            
+            "scene3_wrong3": {
+                id: "scene3_wrong3",
+                title: "Jenis-jenis Software",
+                speaker: "Mas Rian",
+                message: "Windows jelas software! Kamu masih bingung ya bedain hardware dan software?",
+                choices: [],
+                nextScene: "remedial_software_types"
+            },
+            
+            // SCENE 4: KASUS TROUBLESHOOTING 1
+            "scene4": {
+                id: "scene4",
+                title: "Kasus: Komputer Tidak Mau Menyala",
+                speaker: "Mas Rian",
+                message: "Nah, sekarang kita praktek! Lihat komputer di meja nomor 3 itu tidak mau menyala sama sekali. Menurut kamu, apa yang harus dicek pertama kali?",
+                choices: [
+                    { 
+                        text: "Install ulang Windows", 
+                        nextScene: "scene4_wrong1", 
+                        correct: false,
+                        feedback: "Wah, belum saatnya install ulang! Itu solusi untuk masalah software, bukan hardware.",
+                        points: 0
+                    },
+                    { 
+                        text: "Cek kabel power dan stopkontak", 
+                        nextScene: "scene5", 
+                        correct: true,
+                        feedback: "PINTAR! Selalu cek sumber daya listrik dulu saat komputer mati total.",
+                        points: 20
+                    },
+                    { 
+                        text: "Ganti monitor dengan yang baru", 
+                        nextScene: "scene4_wrong2", 
+                        correct: false,
+                        feedback: "Monitor tidak mempengaruhi nyala/mati komputer. CPU yang harusnya nyala dulu.",
+                        points: 0
+                    },
+                    { 
+                        text: "Bersihkan RAM dengan penghapus", 
+                        nextScene: "scene4_wrong3", 
+                        correct: false,
+                        feedback: "Itu langkah yang terlalu teknis dan berisiko! Cek hal dasar dulu.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene4_wrong1": {
+                id: "scene4_wrong1",
+                title: "Troubleshooting Dasar",
+                speaker: "Mas Rian",
+                message: "Install ulang Windows itu untuk masalah software, bukan untuk komputer yang mati total.",
+                choices: [],
+                nextScene: "remedial_troubleshooting_basic"
+            },
+            
+            "scene4_wrong2": {
+                id: "scene4_wrong2",
+                title: "Troubleshooting Dasar",
+                speaker: "Mas Rian",
+                message: "Monitor tidak mempengaruhi nyala/mati komputer. CPU harus nyala dulu.",
+                choices: [],
+                nextScene: "remedial_troubleshooting_basic"
+            },
+            
+            "scene4_wrong3": {
+                id: "scene4_wrong3",
+                title: "Troubleshooting Dasar",
+                speaker: "Mas Rian",
+                message: "Bersihkan RAM itu langkah lanjutan. Kita harus cek hal dasar dulu seperti listrik.",
+                choices: [],
+                nextScene: "remedial_troubleshooting_basic"
+            },
+            
+            // SCENE 5: KASUS TROUBLESHOOTING 2
+            "scene5": {
+                id: "scene5",
+                title: "Kasus: Komputer Hidup Tapi Layar Hitam",
+                speaker: "Mas Rian",
+                message: "Bagus! Sekarang kasus lain: komputer bunyi 'beep' (nyala) tapi layar tetap hitam. Apa yang mungkin terjadi?",
+                choices: [
+                    { 
+                        text: "Harddisk rusak", 
+                        nextScene: "scene5_wrong1", 
+                        correct: false,
+                        feedback: "Harddisk rusak biasanya masih tampil logo BIOS dulu sebelum error.",
+                        points: 0
+                    },
+                    { 
+                        text: "Kabel monitor longgar atau rusak", 
+                        nextScene: "scene6", 
+                        correct: true,
+                        feedback: "BENAR! Kabel VGA/HDMI yang longgar sering jadi penyebab layar hitam.",
+                        points: 20
+                    },
+                    { 
+                        text: "Keyboard tidak terdeteksi", 
+                        nextScene: "scene5_wrong2", 
+                        correct: false,
+                        feedback: "Keyboard tidak terdeteksi tidak menyebabkan layar hitam.",
+                        points: 0
+                    },
+                    { 
+                        text: "Software Windows corrupt", 
+                        nextScene: "scene5_wrong3", 
+                        correct: false,
+                        feedback: "Software corrupt biasanya masih tampil logo Windows dulu sebelum error.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene5_wrong1": {
+                id: "scene5_wrong1",
+                title: "Troubleshooting Display",
+                speaker: "Mas Rian",
+                message: "Harddisk rusak biasanya masih bisa tampilkan BIOS. Layar hitam total biasanya masalah koneksi display.",
+                choices: [],
+                nextScene: "remedial_display_issues"
+            },
+            
+            "scene5_wrong2": {
+                id: "scene5_wrong2",
+                title: "Troubleshooting Display",
+                speaker: "Mas Rian",
+                message: "Keyboard tidak terdeteksi tidak menyebabkan layar hitam total. Itu masalah input device.",
+                choices: [],
+                nextScene: "remedial_display_issues"
+            },
+            
+            "scene5_wrong3": {
+                id: "scene5_wrong3",
+                title: "Troubleshooting Display",
+                speaker: "Mas Rian",
+                message: "Software corrupt biasanya masih tampil logo Windows dulu. Layar hitam total sejak awal biasanya hardware.",
+                choices: [],
+                nextScene: "remedial_display_issues"
+            },
+            
+            // SCENE 6: PERBEDAAN RAM DAN HARD DISK
+            "scene6": {
+                id: "scene6",
+                title: "Memori Komputer: RAM vs Hard Disk",
+                speaker: "Mas Rian",
+                message: "Kamu sudah paham troubleshooting dasar! Sekarang tentang memori. Apa perbedaan utama RAM dan Hard Disk?",
+                choices: [
+                    { 
+                        text: "RAM untuk penyimpanan permanen, Hard Disk untuk sementara", 
+                        nextScene: "scene6_wrong1", 
+                        correct: false,
+                        feedback: "Kebalik! RAM itu sementara, Hard Disk itu permanen.",
+                        points: 0
+                    },
+                    { 
+                        text: "RAM lebih cepat, volatile (hilang saat mati). Hard Disk lebih lambat, non-volatile", 
+                        nextScene: "scene7", 
+                        correct: true,
+                        feedback: "SEMPURNA! Itu perbedaan utama RAM dan Hard Disk.",
+                        points: 25
+                    },
+                    { 
+                        text: "RAM untuk software, Hard Disk untuk hardware", 
+                        nextScene: "scene6_wrong2", 
+                        correct: false,
+                        feedback: "Keduanya hardware! RAM dan Hard Disk sama-sama komponen fisik.",
+                        points: 0
+                    },
+                    { 
+                        text: "Tidak ada bedanya, sama-sama untuk menyimpan data", 
+                        nextScene: "scene6_wrong3", 
+                        correct: false,
+                        feedback: "Ada bedanya! Karakteristik dan fungsinya berbeda meski sama-sama untuk penyimpanan.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene6_wrong1": {
+                id: "scene6_wrong1",
+                title: "Memori Komputer",
+                speaker: "Mas Rian",
+                message: "Kamu terbalik memahami fungsi RAM dan Hard Disk. Yuk kita pelajari lagi!",
+                choices: [],
+                nextScene: "remedial_memory"
+            },
+            
+            "scene6_wrong2": {
+                id: "scene6_wrong2",
+                title: "Memori Komputer",
+                speaker: "Mas Rian",
+                message: "RAM dan Hard Disk sama-sama hardware (perangkat keras). Bukan software!",
+                choices: [],
+                nextScene: "remedial_memory"
+            },
+            
+            "scene6_wrong3": {
+                id: "scene6_wrong3",
+                title: "Memori Komputer",
+                speaker: "Mas Rian",
+                message: "Ada perbedaan penting antara RAM dan Hard Disk! Yuk kita pelajari karakteristik masing-masing.",
+                choices: [],
+                nextScene: "remedial_memory"
+            },
+            
+            // SCENE 7: KASUS SOFTWARE - KOMPUTER LAMBAT
+            "scene7": {
+                id: "scene7",
+                title: "Kasus: Komputer Sangat Lambat",
+                speaker: "Mas Rian",
+                message: "Sekarang kasus software. Komputer sangat lambat saat membuka program. Manakah yang BUKAN penyebab umum komputer lambat?",
+                choices: [
+                    { 
+                        text: "Harddisk hampir penuh (>90%)", 
+                        nextScene: "scene7_wrong1", 
+                        correct: false,
+                        feedback: "Itu justru PENYEBAB umum! Harddisk penuh bisa memperlambat sistem.",
+                        points: 0
+                    },
+                    { 
+                        text: "Terlalu banyak program startup", 
+                        nextScene: "scene7_wrong2", 
+                        correct: false,
+                        feedback: "Itu juga PENYEBAB! Program startup berlebihan memberatkan booting.",
+                        points: 0
+                    },
+                    { 
+                        text: "Warna wallpaper terlalu terang", 
+                        nextScene: "scene8", 
+                        correct: true,
+                        feedback: "BENAR! Warna wallpaper TIDAK mempengaruhi kecepatan komputer secara signifikan.",
+                        points: 20
+                    },
+                    { 
+                        text: "Virus atau malware", 
+                        nextScene: "scene7_wrong3", 
+                        correct: false,
+                        feedback: "Itu jelas PENYEBAB! Virus bisa sangat memperlambat komputer.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene7_wrong1": {
+                id: "scene7_wrong1",
+                title: "Optimasi Performa Komputer",
+                speaker: "Mas Rian",
+                message: "Harddisk penuh memang penyebab umum komputer lambat! Kita cari yang BUKAN penyebab.",
+                choices: [],
+                nextScene: "remedial_performance"
+            },
+            
+            "scene7_wrong2": {
+                id: "scene7_wrong2",
+                title: "Optimasi Performa Komputer",
+                speaker: "Mas Rian",
+                message: "Program startup berlebihan memang memperlambat booting. Kita cari yang BUKAN penyebab.",
+                choices: [],
+                nextScene: "remedial_performance"
+            },
+            
+            "scene7_wrong3": {
+                id: "scene7_wrong3",
+                title: "Optimasi Performa Komputer",
+                speaker: "Mas Rian",
+                message: "Virus jelas memperlambat komputer! Kita cari yang BUKAN penyebab umum.",
+                choices: [],
+                nextScene: "remedial_performance"
+            },
+            
+            // SCENE 8: JARINGAN DAN INTERNET
+            "scene8": {
+                id: "scene8",
+                title: "Masalah Jaringan Internet",
+                speaker: "Mas Rian",
+                message: "Bagus! Sekarang tentang jaringan. Komputer tidak bisa connect ke WiFi. Urutkan troubleshooting yang benar: 1. Restart router 2. Install ulang Windows 3. Cek password WiFi 4. Cek WiFi adapter",
+                choices: [
+                    { 
+                        text: "1-3-4-2", 
+                        nextScene: "scene9", 
+                        correct: true,
+                        feedback: "SEMPURNA! Urutan yang tepat: Restart router → Cek password → Cek adapter → Install ulang (opsi terakhir).",
+                        points: 30
+                    },
+                    { 
+                        text: "2-1-3-4", 
+                        nextScene: "scene8_wrong1", 
+                        correct: false,
+                        feedback: "Install ulang Windows di urutan pertama? Itu terlalu ekstrem untuk masalah jaringan!",
+                        points: 0
+                    },
+                    { 
+                        text: "4-3-1-2", 
+                        nextScene: "scene8_wrong2", 
+                        correct: false,
+                        feedback: "Cek adapter dulu sebelum restart router? Biasanya cek hal sederhana dulu.",
+                        points: 0
+                    },
+                    { 
+                        text: "3-1-4-2", 
+                        nextScene: "scene8_wrong3", 
+                        correct: false,
+                        feedback: "Hampir benar, tapi restart router biasanya sebelum cek adapter.",
+                        points: 10
+                    }
+                ]
+            },
+            
+            "scene8_wrong1": {
+                id: "scene8_wrong1",
+                title: "Troubleshooting Jaringan",
+                speaker: "Mas Rian",
+                message: "Install ulang Windows bukan solusi pertama untuk masalah jaringan! Itu terlalu drastis.",
+                choices: [],
+                nextScene: "remedial_network"
+            },
+            
+            "scene8_wrong2": {
+                id: "scene8_wrong2",
+                title: "Troubleshooting Jaringan",
+                speaker: "Mas Rian",
+                message: "Cek adapter di urutan pertama? Biasanya kita cek hal sederhana seperti restart router dulu.",
+                choices: [],
+                nextScene: "remedial_network"
+            },
+            
+            "scene8_wrong3": {
+                id: "scene8_wrong3",
+                title: "Troubleshooting Jaringan",
+                speaker: "Mas Rian",
+                message: "Hampir benar! Tapi urutan yang lebih tepat: restart router dulu, baru cek adapter.",
+                choices: [],
+                nextScene: "remedial_network"
+            },
+            
+            // SCENE 9: PERANGKAT INPUT/OUTPUT
+            "scene9": {
+                id: "scene9",
+                title: "Perangkat Input dan Output",
+                speaker: "Mas Rian",
+                message: "Kamu hebat banget! Terakhir, tentang perangkat I/O. Manakah yang termasuk BUKAN perangkat input?",
+                choices: [
+                    { 
+                        text: "Keyboard", 
+                        nextScene: "scene9_wrong1", 
+                        correct: false,
+                        feedback: "Keyboard jelas perangkat INPUT untuk memasukkan data.",
+                        points: 0
+                    },
+                    { 
+                        text: "Monitor", 
+                        nextScene: "scene10", 
+                        correct: true,
+                        feedback: "BENAR! Monitor adalah perangkat OUTPUT untuk menampilkan data.",
+                        points: 15
+                    },
+                    { 
+                        text: "Mouse", 
+                        nextScene: "scene9_wrong2", 
+                        correct: false,
+                        feedback: "Mouse adalah perangkat INPUT untuk mengontrol kursor.",
+                        points: 0
+                    },
+                    { 
+                        text: "Scanner", 
+                        nextScene: "scene9_wrong3", 
+                        correct: false,
+                        feedback: "Scanner adalah perangkat INPUT untuk memasukkan gambar/dokumen.",
+                        points: 0
+                    }
+                ]
+            },
+            
+            "scene9_wrong1": {
+                id: "scene9_wrong1",
+                title: "Perangkat Input/Output",
+                speaker: "Mas Rian",
+                message: "Keyboard itu perangkat input! Kita cari yang BUKAN perangkat input.",
+                choices: [],
+                nextScene: "remedial_io_devices"
+            },
+            
+            "scene9_wrong2": {
+                id: "scene9_wrong2",
+                title: "Perangkat Input/Output",
+                speaker: "Mas Rian",
+                message: "Mouse itu perangkat input! Kita cari yang BUKAN perangkat input.",
+                choices: [],
+                nextScene: "remedial_io_devices"
+            },
+            
+            "scene9_wrong3": {
+                id: "scene9_wrong3",
+                title: "Perangkat Input/Output",
+                speaker: "Mas Rian",
+                message: "Scanner itu perangkat input! Kita cari yang BUKAN perangkat input.",
+                choices: [],
+                nextScene: "remedial_io_devices"
+            },
+            
+            // SCENE 10: FINAL SCENE
+            "scene10": {
+                id: "scene10",
+                title: "Sesi Belajar Selesai",
+                speaker: "Mas Rian",
+                message: "WAH LUAR BIASA! Kamu sudah menyelesaikan semua materi belajar hari ini! Pengetahuanmu tentang hardware dan software komputer sudah sangat baik. Sekarang saatnya evaluasi akhir!",
+                choices: [],
+                nextScene: "quiz_final"
+            }
+        };
+
+        // REMEDIAL MATERIALS YANG LEBIH KOMPREHENSIF
+        const remedialMaterials = {
+            "computer_functions": {
+                title: "Fungsi Komputer yang Luas",
+                content: "Komputer tidak hanya untuk main game! Fungsi komputer antara lain:<br><br>1. <strong>Pendidikan</strong>: Belajar online, riset, e-learning<br>2. <strong>Pekerjaan</strong>: Pengolahan data, desain grafis, programming<br>3. <strong>Komunikasi</strong>: Email, video call, media sosial<br>4. <strong>Kreativitas</strong>: Editing video, musik, desain<br>5. <strong>Bisnis</strong>: Akuntansi, inventory, marketing<br><br>Komputer adalah alat serba bisa!",
+                question: "Manakah yang BUKAN fungsi utama komputer?",
+                choices: [
+                    { text: "Bermain game dan media sosial", correct: false },
+                    { text: "Mengolah data dan informasi", correct: true },
+                    { text: "Alat komunikasi digital", correct: false }
+                ],
+                correctFeedback: "Tepat! Mengolah data adalah fungsi utama, game/media sosial adalah aplikasi.",
+                incorrectFeedback: "Coba pahami lagi fungsi-fungsi komputer yang luas!",
+                nextScene: "scene1"
+            },
+            
+            "importance": {
+                title: "Mengapa Belajar Komputer Penting?",
+                content: "Di era digital, belajar komputer itu WAJIB karena:<br><br>1. <strong>Kebutuhan dunia kerja</strong>: Hampir semua pekerjaan butuh skill komputer<br>2. <strong>Efisiensi</strong>: Kerja lebih cepat dan akurat<br>3. <strong>Akses informasi</strong>: Internet membuka pengetahuan tak terbatas<br>4. <strong>Masa depan</strong>: Teknologi terus berkembang<br>5. <strong>Kreativitas</strong>: Wadah ekspresi yang luas<br><br>Tidak ada kata terlambat untuk belajar!",
+                question: "Mengapa belajar komputer penting di era digital?",
+                choices: [
+                    { text: "Hanya untuk menjadi programmer", correct: false },
+                    { text: "Kebutuhan hampir semua aspek kehidupan modern", correct: true },
+                    { text: "Agar tidak ketinggalan game terbaru", correct: false }
+                ],
+                correctFeedback: "Benar! Komputer penting untuk hampir semua aspek kehidupan modern.",
+                incorrectFeedback: "Coba pikirkan manfaat komputer yang lebih luas!",
+                nextScene: "scene1"
+            },
+            
+            "computer_definition": {
+                title: "Definisi Komputer yang Tepat",
+                content: "<strong>Komputer adalah:</strong><br>Alat elektronik yang dapat:<br><br>1. <strong>Menerima Input</strong> (data masukan)<br>2. <strong>Memproses Data</strong> (mengolah informasi)<br>3. <strong>Menyimpan Data</strong> (storage)<br>4. <strong>Menghasilkan Output</strong> (keluaran/informasi)<br><br>Komputer = Input → Processing → Storage → Output<br><br>Bukan hanya untuk game atau mengetik, tapi sistem pengolah data yang kompleks!",
+                question: "Manakah definisi komputer yang paling tepat?",
+                choices: [
+                    { text: "Alat elektronik pengolah data", correct: true },
+                    { text: "Mesin untuk main game", correct: false },
+                    { text: "Perangkat untuk printing dokumen", correct: false }
+                ],
+                correctFeedback: "Tepat! Komputer adalah alat elektronik pengolah data.",
+                incorrectFeedback: "Ingat: komputer sistem pengolah data yang kompleks!",
+                nextScene: "scene2"
+            },
+            
+            "hardware_software": {
+                title: "Hardware vs Software",
+                content: "<strong>HARDWARE</strong> (Perangkat Keras):<br>- Benda fisik yang bisa disentuh<br>- Contoh: Monitor, Keyboard, CPU, Motherboard, RAM, Hard Disk, Printer, Speaker<br><br><strong>SOFTWARE</strong> (Perangkat Lunak):<br>- Program/instruksi yang membuat hardware bekerja<br>- Contoh: Windows (OS), Microsoft Word (aplikasi), Google Chrome (browser), Game<br><br><strong>Analogi:</strong><br>Hardware = Tubuh manusia<br>Software = Pikiran/jiwa manusia",
+                question: "Manakah yang termasuk HARDWARE?",
+                choices: [
+                    { text: "Motherboard dan RAM", correct: true },
+                    { text: "Windows dan Microsoft Word", correct: false },
+                    { text: "Google Chrome dan Game", correct: false }
+                ],
+                correctFeedback: "Tepat! Motherboard dan RAM adalah hardware fisik.",
+                incorrectFeedback: "Ingat: hardware itu benda fisik, software itu program!",
+                nextScene: "scene3"
+            },
+            
+            "software_types": {
+                title: "Jenis-jenis Software",
+                content: "Software dibagi 3 jenis utama:<br><br>1. <strong>Sistem Operasi (OS)</strong>:<br>   - Mengelola seluruh sumber daya komputer<br>   - Contoh: Windows, macOS, Linux, Android<br><br>2. <strong>Software Aplikasi</strong>:<br>   - Program untuk tugas spesifik<br>   - Contoh: Microsoft Word, Photoshop, Game<br><br>3. <strong>Software Utility</strong>:<br>   - Tools bantu/maintenance<br>   - Contoh: Antivirus, Disk Cleaner, Backup tools<br><br>Windows = OS, Word = Aplikasi, Antivirus = Utility",
+                question: "Windows termasuk jenis software apa?",
+                choices: [
+                    { text: "Sistem Operasi", correct: true },
+                    { text: "Software Aplikasi", correct: false },
+                    { text: "Software Utility", correct: false }
+                ],
+                correctFeedback: "Benar! Windows adalah Sistem Operasi.",
+                incorrectFeedback: "Windows mengelola seluruh komputer, bukan aplikasi biasa!",
+                nextScene: "scene4"
+            },
+            
+            "troubleshooting_basic": {
+                title: "Troubleshooting Dasar Hardware",
+                content: "Saat komputer mati total, urutan pengecekan:<br><br>1. <strong>Cek sumber daya listrik</strong>: Kabel power, stopkontak, stabilizer<br>2. <strong>Cek tombol power CPU</strong>: Pastikan ditekan dengan benar<br>3. <strong>Cek kabel internal</strong>: Pastikan tidak ada yang lepas<br>4. <strong>Cek komponen</strong>: RAM, hard disk, power supply<br><br><strong>JANGAN</strong> langsung install ulang Windows! Itu untuk masalah software.<br>Selalu mulai dari hal termudah dan paling umum!",
+                question: "Apa yang harus dicek PERTAMA saat komputer mati total?",
+                choices: [
+                    { text: "Kabel power dan listrik", correct: true },
+                    { text: "Install ulang Windows", correct: false },
+                    { text: "Ganti monitor", correct: false }
+                ],
+                correctFeedback: "Tepat! Selalu cek sumber daya listrik dulu.",
+                incorrectFeedback: "Ingat urutan troubleshooting: mulai dari hal termudah!",
+                nextScene: "scene5"
+            },
+            
+            "display_issues": {
+                title: "Masalah Display/Layar",
+                content: "Komputer hidup (ada bunyi/led) tapi layar hitam?<br><br>Penyebab dan solusi:<br>1. <strong>Kabel monitor longgar/rusak</strong>: Cek kabel VGA/HDMI<br>2. <strong>Input source salah</strong>: Pastikan monitor pilih input yang benar<br>3. <strong>Monitor mati</strong>: Cek tombol power monitor<br>4. <strong>VGA card masalah</strong>: Coba monitor lain<br><br>Layar hitam total sejak awal biasanya masalah hardware display, bukan software!",
+                question: "Komputer bunyi 'beep' (nyala) tapi layar hitam. Apa yang mungkin?",
+                choices: [
+                    { text: "Kabel monitor longgar", correct: true },
+                    { text: "Keyboard rusak", correct: false },
+                    { text: "Software Windows rusak", correct: false }
+                ],
+                correctFeedback: "Benar! Kabel monitor longgar sering jadi penyebab.",
+                incorrectFeedback: "Layar hitam total biasanya masalah koneksi display!",
+                nextScene: "scene6"
+            },
+            
+            "memory": {
+                title: "Perbedaan RAM dan Hard Disk",
+                content: "<strong>RAM (Random Access Memory)</strong>:<br>- Memori sementara<br>- Sangat cepat<br>- Volatile (data hilang saat mati)<br>- Untuk menjalankan program aktif<br><br><strong>Hard Disk/SSD</strong>:<br>- Penyimpanan permanen<br>- Lebih lambat (kecuali SSD)<br>- Non-volatile (data tetap)<br>- Untuk menyimpan file/program<br><br><strong>Analogi</strong>:<br>RAM = Meja kerja (sementara, aktif)<br>Hard Disk = Lemari arsip (permanen, penyimpanan)",
+                question: "Apa perbedaan utama RAM dan Hard Disk?",
+                choices: [
+                    { text: "RAM sementara & cepat, Hard Disk permanen & lambat", correct: true },
+                    { text: "RAM untuk software, Hard Disk untuk hardware", correct: false },
+                    { text: "Tidak ada bedanya", correct: false }
+                ],
+                correctFeedback: "Sempurna! Itu perbedaan utamanya.",
+                incorrectFeedback: "Ingat: RAM seperti meja kerja, Hard Disk seperti lemari!",
+                nextScene: "scene7"
+            },
+            
+            "performance": {
+                title: "Penyebab Komputer Lambat",
+                content: "Penyebab umum komputer lambat:<br><br>1. <strong>Harddisk hampir penuh</strong> (>80% kapasitas)<br>2. <strong>RAM kurang</strong> untuk program yang dijalankan<br>3. <strong>Program startup berlebihan</strong><br>4. <strong>Virus/malware</strong><br>5. <strong>Fragmentasi harddisk</strong> (khusus HDD)<br>6. <strong>Overheating</strong><br><br>Yang TIDAK mempengaruhi kecepatan:<br>- Warna wallpaper<br>- Nama folder<br>- Screen resolution (kecuali sangat tinggi)<br>- Keyboard/mouse model",
+                question: "Manakah yang BUKAN penyebab komputer lambat?",
+                choices: [
+                    { text: "Warna wallpaper terlalu terang", correct: true },
+                    { text: "Harddisk hampir penuh", correct: false },
+                    { text: "Terlalu banyak program startup", correct: false }
+                ],
+                correctFeedback: "Tepat! Warna wallpaper tidak mempengaruhi kecepatan.",
+                incorrectFeedback: "Ingat faktor yang benar-benar mempengaruhi performa!",
+                nextScene: "scene8"
+            },
+            
+            "network": {
+                title: "Troubleshooting Jaringan",
+                content: "Tidak bisa connect internet? Urutan troubleshooting:<br><br>1. <strong>Restart router/modem</strong> (solusi 80% masalah)<br>2. <strong>Cek password WiFi</strong> (salah ketik?)<br>3. <strong>Cek WiFi adapter</strong> di komputer (enable/disable)<br>4. <strong>Update driver</strong> network adapter<br>5. <strong>Reset network settings</strong><br>6. <strong>Install ulang Windows</strong> (LAST RESORT!)<br><br>Install ulang Windows HANYA opsi terakhir untuk masalah jaringan!",
+                question: "Apa urutan troubleshooting WiFi yang benar?",
+                choices: [
+                    { text: "Restart router → Cek password → Cek adapter", correct: true },
+                    { text: "Install ulang Windows → Restart router → Cek password", correct: false },
+                    { text: "Cek adapter → Install ulang Windows → Restart router", correct: false }
+                ],
+                correctFeedback: "Benar! Selalu mulai dari hal termudah.",
+                incorrectFeedback: "Install ulang Windows bukan solusi pertama!",
+                nextScene: "scene9"
+            },
+            
+            "io_devices": {
+                title: "Perangkat Input dan Output",
+                content: "<strong>Perangkat INPUT</strong>:<br>- Mengirim data KE komputer<br>- Contoh: Keyboard, Mouse, Scanner, Microphone, Webcam, Touchscreen<br><br><strong>Perangkat OUTPUT</strong>:<br>- Menerima data DARI komputer<br>- Contoh: Monitor, Printer, Speaker, Projector<br><br><strong>Perangkat I/O</strong> (Input/Output):<br>- Bisa keduanya<br>- Contoh: Touchscreen monitor, Network card, Modem<br><br>Ingat: Input → Masuk ke komputer, Output → Keluar dari komputer",
+                question: "Manakah yang BUKAN perangkat input?",
+                choices: [
+                    { text: "Monitor", correct: true },
+                    { text: "Scanner", correct: false },
+                    { text: "Keyboard", correct: false }
+                ],
+                correctFeedback: "Tepat! Monitor adalah output device.",
+                incorrectFeedback: "Ingat: input masuk ke komputer, output keluar dari komputer!",
+                nextScene: "scene10"
+            }
+        };
+
+        // FINAL QUIZ KOMPREHENSIF
+        const finalQuiz = {
+            question: "KUIS FINAL: Pilih pernyataan yang PALING BENAR tentang sistem komputer!",
+            choices: [
+                { 
+                    text: "Hardware bisa bekerja tanpa software, tapi software tidak bisa tanpa hardware", 
+                    correct: true,
+                    feedback: "SEMPURNA! Hardware adalah fisik, software adalah program. Hardware bisa ada tanpa software (mesin kosong), tapi software perlu hardware untuk berjalan."
+                },
+                { 
+                    text: "Install ulang Windows adalah solusi pertama untuk semua masalah komputer", 
+                    correct: false,
+                    feedback: "SALAH! Install ulang Windows adalah LAST RESORT. Selalu cek hardware dan masalah dasar dulu."
+                },
+                { 
+                    text: "RAM dan Hard Disk sama-sama untuk penyimpanan permanen data", 
+                    correct: false,
+                    feedback: "SALAH! RAM untuk penyimpanan sementara (hilang saat mati), Hard Disk untuk penyimpanan permanen."
+                },
+                { 
+                    text: "Monitor adalah perangkat input karena kita melihatnya", 
+                    correct: false,
+                    feedback: "SALAH! Monitor OUTPUT karena menampilkan data dari komputer. Input adalah yang mengirim data KE komputer."
+                }
+            ]
+        };
+
+        // DOM Elements
+        const homeScreen = document.getElementById('home-screen');
+        const loadingScreen = document.getElementById('loading-screen');
+        const gameScreen = document.getElementById('game-screen');
+        const endingScreen = document.getElementById('ending-screen');
+        const playButton = document.getElementById('play-button');
+        const progressBar = document.getElementById('progress-bar');
+        const chatMessages = document.getElementById('chat-messages');
+        const typingIndicator = document.getElementById('typing-indicator');
+        const choicesContainer = document.getElementById('choices-container');
+        const nextButton = document.getElementById('next-button');
+        const scoreValue = document.getElementById('score-value');
+        const sceneTitle = document.getElementById('scene-title');
+        const timeDisplay = document.getElementById('time-display');
+        const notification = document.getElementById('notification');
+        
+        // Remedial Elements
+        const remedialContainer = document.getElementById('remedial-container');
+        const remedialContent = document.getElementById('remedial-content');
+        const remedialQuestion = document.getElementById('remedial-question');
+        const remedialChoices = document.getElementById('remedial-choices');
+        const remedialNextButton = document.getElementById('remedial-next-button');
+        
+        // Ending Elements
+        const endingTitle = document.getElementById('ending-title');
+        const endingMessage = document.getElementById('ending-message');
+        const endingStats = document.getElementById('ending-stats');
+        const badgeContainer = document.getElementById('badge-container');
+        const badge = document.getElementById('badge');
+        const badgeIcon = document.getElementById('badge-icon');
+        const badgeText = document.getElementById('badge-text');
+        const restartButton = document.getElementById('restart-button');
+
+        // Initialize game
+        function initGame() {
+            // Set event listeners
+            playButton.addEventListener('click', startGame);
+            nextButton.addEventListener('click', nextDialog);
+            remedialNextButton.addEventListener('click', nextAfterRemedial);
+            restartButton.addEventListener('click', restartGame);
+            
+            // Load first scene
+            loadScene("scene0");
+        }
+
+        // Start game from home screen
+        function startGame() {
+            // Hide home screen
+            homeScreen.style.opacity = '0';
+            setTimeout(() => {
+                homeScreen.style.display = 'none';
+                
+                // Show loading screen
+                loadingScreen.style.opacity = '1';
+                loadingScreen.style.pointerEvents = 'auto';
+                
+                // Simulate loading progress
+                let progress = 0;
+                const loadingInterval = setInterval(() => {
+                    progress += Math.random() * 20 + 10;
+                    if (progress > 100) progress = 100;
+                    progressBar.style.width = `${progress}%`;
+                    
+                    if (progress >= 100) {
+                        clearInterval(loadingInterval);
+                        
+                        // Hide loading screen and show game screen
+                        setTimeout(() => {
+                            loadingScreen.style.opacity = '0';
+                            loadingScreen.style.pointerEvents = 'none';
+                            
+                            gameScreen.style.display = 'flex';
+                            setTimeout(() => {
+                                gameScreen.style.opacity = '1';
+                            }, 50);
+                        }, 500);
+                    }
+                }, 200);
+            }, 800);
+        }
+
+        // Load a scene from decision tree
+        function loadScene(sceneId) {
+            console.log("Loading scene:", sceneId);
+            
+            // Cek jika mencapai ending
+            if (sceneId === "ending") {
+                showEnding();
+                return;
+            }
+            
+            // Cek jika mencapai quiz final
+            if (sceneId === "quiz_final") {
+                startFinalQuiz();
+                return;
+            }
+            
+            // Cek jika mencapai batas jawaban salah
+            if (gameState.wrongAnswers >= gameState.maxWrongAnswers) {
+                showEnding();
+                return;
+            }
+            
+            // Cek jika scene adalah remedial
+            if (sceneId.startsWith("remedial_")) {
+                const topic = sceneId.replace("remedial_", "");
+                startRemedial(topic);
+                return;
+            }
+            
+            const scene = decisionTree[sceneId];
+            if (!scene) {
+                console.error("Scene not found:", sceneId);
+                return;
+            }
+            
+            gameState.currentScene = sceneId;
+            sceneTitle.textContent = scene.title;
+            
+            // Update time (simulasi waktu berjalan)
+            updateTime();
+            
+            // Tambahkan pesan ke chat
+            addMessage(scene.speaker, scene.message);
+            
+            // Update score display
+            scoreValue.textContent = gameState.score;
+            
+            // Clear choices
+            choicesContainer.innerHTML = '';
+            
+            // Jika scene memiliki pilihan, tampilkan
+            if (scene.choices && scene.choices.length > 0) {
+                nextButton.style.display = 'none';
+                
+                scene.choices.forEach((choice, index) => {
+                    const button = document.createElement('button');
+                    button.className = 'choice-button';
+                    button.textContent = choice.text;
+                    button.addEventListener('click', () => selectChoice(choice));
+                    choicesContainer.appendChild(button);
+                });
+            } else {
+                // Jika tidak ada pilihan, tampilkan tombol next
+                nextButton.style.display = 'block';
+            }
+        }
+
+        // Tambahkan pesan ke chat
+        function addMessage(sender, message, isFeedback = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender === "ANDA" ? 'self' : 'other'}`;
+            
+            // Avatar
+            const avatarDiv = document.createElement('div');
+            avatarDiv.className = `avatar ${sender === "ANDA" ? 'student' : 'owner'}`;
+            
+            // Avatar pixel art
+            const avatarImg = document.createElement('div');
+            avatarImg.className = 'avatar-img';
+            
+            if (sender === "ANDA") {
+                // Student avatar
+                avatarImg.innerHTML = `
+                    <div class="avatar-pixel student-head"></div>
+                    <div class="avatar-pixel student-hair"></div>
+                    <div class="avatar-pixel student-eye left"></div>
+                    <div class="avatar-pixel student-eye right"></div>
+                    <div class="avatar-pixel student-body"></div>
+                `;
+            } else {
+                // Mas Rian avatar
+                avatarImg.innerHTML = `
+                    <div class="avatar-pixel owner-head"></div>
+                    <div class="avatar-pixel owner-hair"></div>
+                    <div class="avatar-pixel owner-eye left"></div>
+                    <div class="avatar-pixel owner-eye right"></div>
+                    <div class="avatar-pixel owner-smile"></div>
+                    <div class="avatar-pixel owner-body"></div>
+                `;
+            }
+            
+            avatarDiv.appendChild(avatarImg);
+            
+            // Message content
+            const messageContent = document.createElement('div');
+            messageContent.className = 'message-content';
+            
+            // Message info (name + time)
+            const messageInfo = document.createElement('div');
+            messageInfo.className = 'message-info';
+            
+            const senderName = document.createElement('div');
+            senderName.className = 'sender-name';
+            senderName.textContent = sender === "ANDA" ? "ANDA" : "Mas Rian";
+            
+            const messageTime = document.createElement('div');
+            messageTime.className = 'message-time';
+            messageTime.textContent = gameState.currentTime;
+            
+            messageInfo.appendChild(senderName);
+            messageInfo.appendChild(messageTime);
+            
+            // Message bubble
+            const messageBubble = document.createElement('div');
+            messageBubble.className = 'message-bubble';
+            
+            // Jika feedback, beri warna khusus
+            if (isFeedback) {
+                if (message.includes("BENAR") || message.includes("TEPAT") || message.includes("PINTAR") || message.includes("SEMPURNA")) {
+                    messageBubble.style.backgroundColor = 'rgba(0, 170, 68, 0.9)';
+                    messageBubble.style.borderColor = '#00cc66';
+                } else {
+                    messageBubble.style.backgroundColor = 'rgba(204, 51, 0, 0.9)';
+                    messageBubble.style.borderColor = '#ff6600';
+                }
+            }
+            
+            messageBubble.innerHTML = message;
+            
+            // Assemble
+            messageContent.appendChild(messageInfo);
+            messageContent.appendChild(messageBubble);
+            
+            messageDiv.appendChild(avatarDiv);
+            messageDiv.appendChild(messageContent);
+            
+            // Tampilkan efek typing sebelum pesan muncul
+            typingIndicator.style.display = 'flex';
+            
+            // Simulasi delay mengetik
+            setTimeout(() => {
+                typingIndicator.style.display = 'none';
+                chatMessages.appendChild(messageDiv);
+                
+                // Scroll ke bawah
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+                
+                // Tampilkan notifikasi jika bukan pesan dari player
+                if (sender !== "ANDA") {
+                    showNotification("Pesan baru dari Mas Rian!");
+                }
+            }, 1000);
+            
+            // Tambahkan ke history
+            gameState.chatHistory.push({
+                sender: sender,
+                message: message,
+                time: gameState.currentTime,
+                isFeedback: isFeedback
+            });
+        }
+
+        // Update waktu
+        function updateTime() {
+            const times = ["10:00 AM", "10:15 AM", "10:30 AM", "10:45 AM", 
+                          "11:00 AM", "11:15 AM", "11:30 AM", "11:45 AM",
+                          "12:00 PM", "12:15 PM", "12:30 PM", "12:45 PM",
+                          "01:00 PM", "01:15 PM", "01:30 PM"];
+            
+            const currentIndex = times.indexOf(gameState.currentTime);
+            if (currentIndex < times.length - 1) {
+                gameState.currentTime = times[currentIndex + 1];
+            } else {
+                gameState.currentTime = times[Math.floor(Math.random() * times.length)];
+            }
+            
+            timeDisplay.textContent = gameState.currentTime;
+        }
+
+        // Tampilkan notifikasi
+        function showNotification(text) {
+            notification.textContent = text;
+            notification.style.display = 'block';
+            
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 3000);
+        }
+
+        // Handle choice selection
+        function selectChoice(choice) {
+            // Update stats
+            gameState.totalQuestions++;
+            
+            // Tampilkan pilihan player di chat
+            addMessage("ANDA", choice.text);
+            
+            // Delay sebelum feedback
+            setTimeout(() => {
+                if (choice.correct) {
+                    gameState.correctAnswers++;
+                    gameState.score += choice.points || 10;
+                    
+                    // Tampilkan feedback di chat
+                    addMessage("Mas Rian", choice.feedback, true);
+                    
+                    // Highlight pilihan yang benar
+                    document.querySelectorAll('.choice-button').forEach(btn => {
+                        if (btn.textContent === choice.text) {
+                            btn.classList.add('correct');
+                        }
+                    });
+                } else {
+                    gameState.wrongAnswers++;
+                    
+                    // Tampilkan feedback di chat
+                    addMessage("Mas Rian", choice.feedback, true);
+                    
+                    // Highlight pilihan yang salah
+                    document.querySelectorAll('.choice-button').forEach(btn => {
+                        if (btn.textContent === choice.text) {
+                            btn.classList.add('incorrect');
+                        }
+                    });
+                }
+                
+                // Update score display
+                scoreValue.textContent = gameState.score;
+                
+                // Nonaktifkan semua pilihan
+                document.querySelectorAll('.choice-button').forEach(btn => {
+                    btn.disabled = true;
+                });
+                
+                // Tampilkan tombol next
+                nextButton.style.display = 'block';
+                
+                // Simpan scene berikutnya
+                gameState.nextScene = choice.nextScene;
+            }, 1500);
+        }
+
+        // Pindah ke dialog berikutnya
+        function nextDialog() {
+            if (gameState.nextScene) {
+                loadScene(gameState.nextScene);
+                gameState.nextScene = null;
+            } else {
+                // Jika tidak ada nextScene, cek dari scene current
+                const scene = decisionTree[gameState.currentScene];
+                if (scene && scene.nextScene) {
+                    loadScene(scene.nextScene);
+                } else {
+                    // Default: lanjut ke scene berikutnya berdasarkan ID
+                    const currentId = parseInt(gameState.currentScene.replace("scene", ""));
+                    if (!isNaN(currentId)) {
+                        loadScene(`scene${currentId + 1}`);
+                    }
+                }
+            }
+        }
+
+        // Memulai remedial
+        function startRemedial(topic) {
+            gameState.inRemedial = true;
+            gameState.remedialTopic = topic;
+            
+            const material = remedialMaterials[topic];
+            if (!material) {
+                console.error("Remedial material not found:", topic);
+                loadScene("scene0");
+                return;
+            }
+            
+            // Tampilkan container remedial
+            remedialContainer.style.display = 'block';
+            
+            // Set konten remedial
+            document.querySelector('.remedial-title').textContent = material.title;
+            remedialContent.innerHTML = material.content;
+            remedialQuestion.textContent = material.question;
+            
+            // Clear choices sebelumnya
+            remedialChoices.innerHTML = '';
+            
+            // Tambahkan pilihan
+            material.choices.forEach((choice, index) => {
+                const button = document.createElement('button');
+                button.className = 'choice-button';
+                button.textContent = choice.text;
+                button.addEventListener('click', () => selectRemedialAnswer(choice, material));
+                remedialChoices.appendChild(button);
+            });
+            
+            // Sembunyikan tombol next dulu
+            remedialNextButton.style.display = 'none';
+        }
+
+        // Handle jawaban remedial
+        function selectRemedialAnswer(choice, material) {
+            // Nonaktifkan semua pilihan
+            document.querySelectorAll('#remedial-choices .choice-button').forEach(btn => {
+                btn.disabled = true;
+            });
+            
+            if (choice.correct) {
+                // Jika benar, tandai remedial selesai
+                gameState.hasCompletedRemedial[gameState.remedialTopic] = true;
+                
+                // Tampilkan feedback
+                remedialQuestion.innerHTML = `<span style="color:#66ff99">${material.correctFeedback}</span>`;
+                
+                // Beri poin untuk remedial
+                gameState.score += 10;
+                scoreValue.textContent = gameState.score;
+                
+                // Highlight pilihan benar
+                document.querySelectorAll('#remedial-choices .choice-button').forEach(btn => {
+                    if (btn.textContent === choice.text) {
+                        btn.classList.add('correct');
+                    }
+                });
+            } else {
+                // Jika salah, tetap di remedial
+                remedialQuestion.innerHTML = `<span style="color:#ff9966">${material.incorrectFeedback}</span>`;
+                
+                // Highlight pilihan salah
+                document.querySelectorAll('#remedial-choices .choice-button').forEach(btn => {
+                    if (btn.textContent === choice.text) {
+                        btn.classList.add('incorrect');
+                    }
+                });
+                
+                // Tetap di remedial, tidak lanjut
+                return;
+            }
+            
+            // Tampilkan tombol next
+            remedialNextButton.style.display = 'block';
+        }
+
+        // Pindah setelah remedial
+        function nextAfterRemedial() {
+            gameState.inRemedial = false;
+            remedialContainer.style.display = 'none';
+            
+            // Kembali ke alur utama
+            const material = remedialMaterials[gameState.remedialTopic];
+            if (material && material.nextScene) {
+                // Tambahkan pesan bahwa remedial selesai
+                addMessage("Mas Rian", "Bagus! Sekarang kamu sudah paham. Mari kita lanjutkan...");
+                setTimeout(() => {
+                    loadScene(material.nextScene);
+                }, 1500);
+            } else {
+                // Default ke scene0
+                loadScene("scene0");
+            }
+        }
+
+        // Memulai kuis final
+        function startFinalQuiz() {
+            // Tampilkan sebagai pesan di chat
+            addMessage("Mas Rian", `<strong>${finalQuiz.question}</strong><br><br>Ini adalah pertanyaan terakhir untuk menguji pemahamanmu secara keseluruhan!`);
+            
+            // Clear choices
+            choicesContainer.innerHTML = '';
+            
+            // Tambahkan pilihan kuis final
+            finalQuiz.choices.forEach((choice, index) => {
+                const button = document.createElement('button');
+                button.className = 'choice-button';
+                button.textContent = choice.text;
+                button.addEventListener('click', () => selectFinalQuizAnswer(choice));
+                choicesContainer.appendChild(button);
+            });
+            
+            // Sembunyikan tombol next
+            nextButton.style.display = 'none';
+        }
+
+        // Handle jawaban kuis final
+        function selectFinalQuizAnswer(choice) {
+            gameState.totalQuestions++;
+            
+            // Tampilkan pilihan player di chat
+            addMessage("ANDA", choice.text);
+            
+            // Delay sebelum feedback
+            setTimeout(() => {
+                if (choice.correct) {
+                    gameState.correctAnswers++;
+                    gameState.score += 50; // Poin besar untuk final quiz
+                    
+                    // Tampilkan feedback di chat
+                    addMessage("Mas Rian", choice.feedback, true);
+                    
+                    // Highlight pilihan benar
+                    document.querySelectorAll('.choice-button').forEach(btn => {
+                        if (btn.textContent === choice.text) {
+                            btn.classList.add('correct');
+                        }
+                    });
+                } else {
+                    gameState.wrongAnswers++;
+                    
+                    // Tampilkan feedback di chat
+                    addMessage("Mas Rian", choice.feedback, true);
+                    
+                    // Highlight pilihan salah
+                    document.querySelectorAll('.choice-button').forEach(btn => {
+                        if (btn.textContent === choice.text) {
+                            btn.classList.add('incorrect');
+                        }
+                    });
+                }
+                
+                // Update score display
+                scoreValue.textContent = gameState.score;
+                
+                // Nonaktifkan semua pilihan
+                document.querySelectorAll('.choice-button').forEach(btn => {
+                    btn.disabled = true;
+                });
+                
+                // Ganti tombol next dengan "Lihat Hasil"
+                nextButton.textContent = "LIHAT HASIL AKHIR";
+                nextButton.style.display = 'block';
+                gameState.nextScene = "ending";
+            }, 1500);
+        }
+
+        // Tampilkan ending
+        function showEnding() {
+            // Hitung persentase benar
+            const accuracy = gameState.totalQuestions > 0 
+                ? Math.round((gameState.correctAnswers / gameState.totalQuestions) * 100) 
+                : 0;
+            
+            // Tentukan ending berdasarkan kondisi
+            let isSuccess = false;
+            
+            // Kondisi sukses: minimal 70% benar (lebih tinggi karena soal lebih sulit)
+            if (accuracy >= 70 && gameState.wrongAnswers < gameState.maxWrongAnswers) {
+                isSuccess = true;
+            }
+            
+            // Kondisi gagal: terlalu banyak salah
+            if (gameState.wrongAnswers >= gameState.maxWrongAnswers) {
+                isSuccess = false;
+            }
+            
+            // Update ending screen berdasarkan hasil
+            if (isSuccess) {
+                // ENDING SUKSES
+                endingTitle.textContent = "SELAMAT! KAMU LUAR BIASA!";
+                endingTitle.style.color = "#00cc66";
+                
+                endingMessage.innerHTML = `
+                    <span style="color:#66ff99">🔥 LUAR BIASA BANGET! 🔥</span><br><br>
+                    Skor akhirmu: <strong>${gameState.score}</strong> poin!<br>
+                    Kamu benar-benar menguasai materi hardware dan software komputer!<br><br>
+                    <span style="color:#ffcc00">Mas Rian: "Kamu punya bakat di bidang IT! Terus kembangkan ya!"</span><br><br>
+                    <span style="color:#66ccff">#FutureTechExpert</span>
+                `;
+                
+                // Badge sukses
+                badge.className = "badge badge-success";
+                badgeIcon.textContent = "👑";
+                badgeText.textContent = "EXPERT IT";
+                badgeContainer.style.display = "flex";
+                
+            } else {
+                // ENDING GAGAL
+                endingTitle.textContent = "AYO SEMANGAT BELAJAR LAGI!";
+                endingTitle.style.color = "#ff6666";
+                
+                if (gameState.wrongAnswers >= gameState.maxWrongAnswers) {
+                    endingMessage.innerHTML = `
+                        <span style="color:#ff9966">Wah, masih perlu banyak belajar nih...</span><br><br>
+                        Kamu sudah salah <strong>${gameState.wrongAnswers} kali</strong> dari ${gameState.totalQuestions} pertanyaan.<br>
+                        Materi komputer memang butuh pemahaman bertahap. Jangan menyerah!<br><br>
+                        <span style="color:#ffcc00">Mas Rian: "Jangan patah semangat! Setiap ahli komputer pernah belajar dari dasar."</span><br><br>
+                        <span style="color:#66ccff">#KeepLearning #NeverGiveUp</span>
+                    `;
+                } else {
+                    endingMessage.innerHTML = `
+                        <span style="color:#ff9966">Hampir mencapai target!</span><br><br>
+                        Akurasi jawabanmu <strong>${accuracy}%</strong> (target: 70%).<br>
+                        Sedikit lagi! Coba main lagi dan pelajari materinya lebih seksama.<br><br>
+                        <span style="color:#ffcc00">Mas Rian: "Kamu sudah cukup paham, tinggal sedikit penyempurnaan!"</span><br><br>
+                        <span style="color:#66ccff">#AlmostThere #TryAgain</span>
+                    `;
+                }
+                
+                // Badge gagal
+                badge.className = "badge badge-fail";
+                badgeIcon.textContent = "📚";
+                badgeText.textContent = "KEEP TRYING";
+                badgeContainer.style.display = "flex";
+            }
+            
+            // Tampilkan stats detail
+            endingStats.innerHTML = `
+                <strong>📊 STATISTIK DETAIL:</strong><br>
+                Skor Akhir: <span style="color:#ffcc00">${gameState.score} poin</span><br>
+                Jawaban Benar: <span style="color:#66ff99">${gameState.correctAnswers} dari ${gameState.totalQuestions}</span><br>
+                Jawaban Salah: <span style="color:#ff9966">${gameState.wrongAnswers}</span><br>
+                Akurasi: <span style="color:#66ccff">${accuracy}%</span><br>
+                Level Pemahaman: <span style="color:#${isSuccess ? '66ff99' : 'ff9966'}">${isSuccess ? 'EXPERT' : 'PEMULA'}</span>
+            `;
+            
+            // Sembunyikan game screen dan tampilkan ending screen
+            gameScreen.style.opacity = '0';
+            setTimeout(() => {
+                gameScreen.style.display = 'none';
+                endingScreen.style.display = 'flex';
+                setTimeout(() => {
+                    endingScreen.style.opacity = '1';
+                }, 50);
+            }, 800);
+        }
+
+        // Restart game
+        function restartGame() {
+            // Reset game state
+            gameState.currentScene = "scene0";
+            gameState.score = 0;
+            gameState.correctAnswers = 0;
+            gameState.totalQuestions = 0;
+            gameState.wrongAnswers = 0;
+            gameState.inRemedial = false;
+            gameState.remedialTopic = "";
+            gameState.hasCompletedRemedial = {};
+            gameState.chatHistory = [];
+            gameState.currentTime = "10:00 AM";
+            gameState.nextScene = null;
+            
+            // Clear chat messages
+            chatMessages.innerHTML = '';
+            
+            // Sembunyikan ending screen, tampilkan home screen
+            endingScreen.style.opacity = '0';
+            setTimeout(() => {
+                endingScreen.style.display = 'none';
+                homeScreen.style.display = 'flex';
+                setTimeout(() => {
+                    homeScreen.style.opacity = '1';
+                }, 50);
+            }, 500);
+            
+            // Reset progress bar
+            progressBar.style.width = '0%';
+            
+            // Sembunyikan badge
+            badgeContainer.style.display = 'none';
+            
+            // Reset time display
+            timeDisplay.textContent = "10:00 AM";
+            
+            // Load first scene
+            loadScene("scene0");
+        }
+
+        // Initialize the game when page loads
+        window.addEventListener('DOMContentLoaded', initGame);
+    </script>
+</body>
+</html>
